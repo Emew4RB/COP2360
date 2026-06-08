@@ -1,0 +1,15 @@
+using System;
+
+public class Test
+{
+  public const string Message = "Hello World";
+}
+
+public partial class Test
+{
+  public partial void M1();    
+  private partial void M2();   
+
+  public partial bool IsValid (string identifier);
+  internal partial bool TryParse (string number, out int result);
+}
